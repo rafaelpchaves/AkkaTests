@@ -33,6 +33,7 @@ public class HotSwapActors extends UntypedActor {
 
 								getSelf().tell(PING);
 
+								
 								getContext().unbecome();
 
 							}
